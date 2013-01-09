@@ -1,0 +1,69 @@
+html {
+  background-color:#000000;
+  font-family:monospace;
+}
+/* Esto hara que todo lo que meta en el class=container este centrado y dentro de un div con 960px de ancho */
+.container { 
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+#divFondo {
+  height:600px;
+  background-image:url(/img/fondo_desvan.png);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center bottom;
+  background-color:white;
+}
+
+#divCubre {
+	position:absolute;
+	top:27px;
+	width:960px;
+	height:600px;
+	background-image:url(/img/cubre_papel.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+#logo {
+  position:fixed;
+  margin-left:343px;
+  width:262px;
+  top:200px;
+}
+
+#gato {
+  position:fixed;
+  margin-left:0px;
+  width:960px;
+}
+
+#menu {
+  position:fixed;
+  margin-left:660px;
+  margin-top:40px;
+  width:150px;
+  border-left:1px solid black;
+}
+
+ul {
+  line-height:200%;
+  list-style-type:katakana;
+}
+
+li {
+  
+}
+
+p {
+  margin-top:450px;
+  text-align:center;
+  font-weight:;
+}
+
+span {
+  font-family:serif;
+}
