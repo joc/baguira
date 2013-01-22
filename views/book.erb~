@@ -1,0 +1,7 @@
+<h1>Este es mi book</h1>
+<!--
+<object id="book" data="swf/book.swf" type="application/x-shockwave-flash" width="1299" height="960"> 
+<param name="movie" value="book.swf"/>
+</object>
+-->
+<a class="fancybox" rel="group" href="img/1_b.jpg"><img src="img/1_s.jpg" alt="" /></a>

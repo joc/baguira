@@ -1,69 +1,75 @@
 html {
-  background-color:#000000;
+  background-color:purple;
   font-family:monospace;
+  font-size:12px;
 }
 /* Esto hara que todo lo que meta en el class=container este centrado y dentro de un div con 960px de ancho */
 .container { 
   margin-left:auto;
   margin-right:auto;
   width:960px;
-}
-
-#divFondo {
-  height:600px;
-  background-image:url(/img/fondo_desvan.png);
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:center bottom;
-  background-color:white;
-}
-
-#divCubre {
-	position:absolute;
-	top:27px;
-	width:960px;
-	height:600px;
-	background-image:url(/img/cubre_papel.png);
-	background-repeat:no-repeat;
-	background-position:center top;
-}
-
-#logo {
-  position:fixed;
-  margin-left:343px;
-  width:262px;
-  top:200px;
-}
-
-#gato {
-  position:fixed;
-  margin-left:0px;
-  width:960px;
+  background-image:url('../img/difuminado.png');
 }
 
 #menu {
-  position:fixed;
+  position:absolute;
   margin-left:660px;
   margin-top:40px;
   width:150px;
-  border-left:1px solid black;
+  z-index:1;
 }
+
+#menu a:link, #menu a:visited {
+  color:#000;
+}
+
+#menu a:hover li, #menu a:active li {
+  color:#FFF;
+  background:transparent url('../img/barraMenu.png') 100% 50% no-repeat;
+  font-weight:bold;
+}
+
+#menu li{
+  margin:auto;
+  width:110px;
+  left:0px;
+  text-align:center;
+  text-indent:22px;
+  white-space: nowrap;
+}
+
 
 ul {
-  line-height:200%;
-  list-style-type:katakana;
+  line-height:220%;
+  list-style-type: none;
+	padding: 0px;
+	margin: 0px;
 }
 
-li {
-  
-}
 
 p {
   margin-top:450px;
   text-align:center;
-  font-weight:bold;
+  font-weight:;
 }
 
 span {
-  font-family:sin-serif;
+  font-family:serif;
+}
+
+#contenido {
+  border:1px solid red;
+  width:auto;
+  height:600px;
+  background:transparent url('../img/fondo_todo.png') 50% 100% repeat-x;
+}
+
+book {
+width: 650px; 
+height: 450px; 
+background-color:black;
+}
+
+#swfBook {
+margin:0px -30px; 
 }

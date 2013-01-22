@@ -1,0 +1,123 @@
+#subMenuP {
+  position:absolute;
+  margin:10px 0px 0px 60px;
+  border:1px solid green;
+  width:615px;
+  height:100px;
+  background-image:url('../img/subMenu_0.png');
+}
+
+.menuP {
+  position:absolute;
+  font-size:12px;
+}
+
+#p01{
+  margin:40px 0px 0px 20px;
+}
+
+#p02{
+  margin:30px 0px 0px 150px;
+}
+
+#p03{
+  margin:80px 0px 0px 250px;
+}
+
+#p04{
+  margin:50px 0px 0px 340px;
+}
+
+#p05{
+  margin:80px 0px 0px 410px;
+}
+
+#p06{
+  margin-left:440px;
+}
+
+#p07{
+  margin:70px 0px 0px 515px;
+}
+
+/* caja con numeros */
+
+
+
+
+.cajaNum {
+  position:absolute;
+  border:1px dotted red;
+  width:200px;
+  height:auto;
+  text-align:center;
+  margin:120px 0px 0px 30px;
+}
+
+.cajaNum table {
+  border:1px solid green;
+  margin:auto;
+  width:190px;
+}
+
+.cajaNum td {
+  border:1px solid blue;
+  width:20px;
+  height:20px;
+  padding:2px 2px;
+}
+
+/* Canvas donde mostrare mis trabajos */
+
+.canvas {
+
+  margin:120px auto 0px auto;
+  width:390px;
+  height:340px;
+  background-color:transparent;
+  border:1px solid purple;
+}
+
+.canvas iframe{
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+.canvas img{
+  float:right;
+}
+
+#a01 {
+  width:800px;
+  height:auto;
+  margin:auto;
+  border:1px solid white;
+}
+
+.a01-left {
+  float:left;
+  width:300px;
+  
+}
+
+.a01-left table{
+  height:300px;
+  border:1px solid red;
+  background-color:gray;
+}
+
+.a01-right {
+	position:absolute;
+	margin-left:290px;
+  width:390px;
+  height:300px;
+  background-color:white;
+  border:1px solid green; 
+}
+
+.a01-img {
+  width:100%;
+}
+
+

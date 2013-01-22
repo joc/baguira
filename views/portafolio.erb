@@ -1,0 +1,73 @@
+<% content_for (:title) do %>
+Portafolio
+<% end %>
+
+<% content_for (:style) do %>
+<link rel="stylesheet" style="text/css" href="stylesheets/subMenu.css">
+<% end %>
+
+<% content_for (:script) do %>
+<script type="text/javascript" src="js/showDiv.js"></script>
+<% end %>
+
+<!-- Menu de portafolio con img de fondo-->
+<div id="subMenuP">
+<a href="javascript:demoDisplayOn()"><h2 class="menuP" id="p01">multimedia</h2></a>
+<a href="javascript:demoDisplayOff()"><h2 class="menuP" id="p02">fotograf&iacute;as</h2></a>
+<a href="#"><h2 class="menuP" id="p03">folletos</h2></a>
+<a href="#"><h2 class="menuP" id="p04">envases</h2></a>
+<a href="#"><h2 class="menuP" id="p05">carteles</h2></a>
+<a href="#"><h2 class="menuP" id="p06">ilustraciones</h2></a>
+<a href="#"><h2 class="menuP" id="p07">logotipos</h2></a>
+</div>
+
+<!-- Caja nuemerada -->
+<div id="boxN" class="cajaNum">
+	<table>
+		<tr>
+			<td><a target="iframe_a" href="/img/multimedia/obsequios.png" alt="webXanath">1</a></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.w3schools.com/css/css_positioning.asp" target="iframe_a">7</a></td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+		</tr>
+	</table>
+</div>
+
+
+<!-- canvas donde apareceran los trabajos -->
+<div class="canvas">
+  <iframe src="" name="iframe_a"></iframe>
+</div>
+
+<div id="a01">
+	<div class="a01-left">
+		<table>
+			<thead>
+				<tr>
+					<th>Diseño de marca, web y fotograf&iacute;a </th>
+				</tr>
+				<tr>
+					<th>Obsequios Xanath</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Descripci&oacute;n</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="a01-right">
+		<img class="a01-img" src="../img/multimedia/obsequios.png" alt="webXanath"/>
+	</div>
+</div>
