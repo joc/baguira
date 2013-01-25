@@ -1,14 +1,20 @@
 html {
-  background-color:purple;
+
   font-family:monospace;
   font-size:12px;
+  
 }
 /* Esto hara que todo lo que meta en el class=container este centrado y dentro de un div con 960px de ancho */
 .container { 
   margin-left:auto;
   margin-right:auto;
   width:960px;
-  background-image:url('../img/difuminado.png');
+  background-image:url('../img/fondo_1px.png');
+  box-shadow: 0px 20px 50px 30px #888888;
+}
+
+#cubre {
+  position:absolute;
 }
 
 #menu {
@@ -16,7 +22,7 @@ html {
   margin-left:660px;
   margin-top:40px;
   width:150px;
-  z-index:1;
+  z-index:;
 }
 
 #menu a:link, #menu a:visited {
@@ -60,7 +66,8 @@ span {
 #contenido {
   width:auto;
   height:600px;
-  background:transparent url('../img/fondo_todo.png') 50% 100% repeat-x;
+  background:transparent url('../img/fondo_gato01.png') 50% 100% repeat-x;
+
 }
 
 book {
