@@ -71,3 +71,6 @@
   background-color:transparent;
 }
 
+#fondo div {
+  border:0px solid transparent;
+}
