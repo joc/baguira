@@ -1,0 +1,27 @@
+<% content_for (:title) do %>
+Contacto
+<% end %>
+
+<% content_for (:style) do %>
+<link rel="stylesheet" style="text/css" href="stylesheets/log.css" >
+<% end %>
+
+
+<ul id="log00">
+	<li id="text">movil:<span class="ted">044 55 2521 8421</span></li>
+	<li id="text00">email:<span class="ted">anataApio.design<span class="at">@</span>gmail.com</span></li>
+</ul>
+
+<ul id="log01">
+	<li id="text01"></li>
+	<li id="you"><a href="http://www.youtube.com/user/jcsnake" target="_blank" title="Videos en YouTube" ></a></li>
+	<li id="flk"><a href="http://www.flickr.com/photos/jcpvg/" target="_blank" title="Fotos en Flickr"></a></li>
+</ul>
+
+<ul id="log03">
+
+	<li id="tw"><a href="#"></a></li>
+	<li id="fb"><a href="http://www.facebook.com/jcpvg" target="_blank" title="CaraLibro"></a></li>
+	<li id="go"><a href="#"></a></li>
+</ul>
+

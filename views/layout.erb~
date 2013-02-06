@@ -208,7 +208,6 @@
 			<div id="ap01"><img src="img/logo_sombra.png"/></div>
 		<!-- inicia contenido para otras views -->
 			<div id="contenido"><%=  yield %></div>
-			<div id="footer">México D.F. 2013</div>
 		</div> <!--FIN de container-->
 	</body>
 </html>

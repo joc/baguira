@@ -1,0 +1,128 @@
+#log00 {
+  position:absolute;
+  margin:20px 0 0 15px;
+}
+
+#log01 {
+  position:relative;
+  top:385px;
+  margin-left:395px;
+}
+
+#log03 {
+  position:relative;
+  top:175px;
+  margin-left:395px;
+}
+
+#log01 li, #log03 li{
+  margin:0;
+  padding:0;
+  list-style:none;
+  position:absolute;
+
+}
+
+#log01 li, #log01 a {
+  height:55px;
+  display:block;
+}
+
+#log03 li, #log03 a {
+  height:45px;
+  display:block;
+}
+
+
+#you {
+  left:0px;
+  width:67px;
+}
+
+#you {
+  background:url('../img/logos/logosYou.png') -70px 0;
+}
+
+#you a:hover {
+  background:url('../img/logos/logosYou.png') 0 0;
+}
+
+#flk {
+  left:68px;
+  width:72px;
+}
+
+#flk {
+  background:url('../img/logos/logosFl.png') -74px 0;
+}
+
+#flk a:hover {
+  background:url('../img/logos/logosFl.png') -2px 0;
+}
+
+#tw {
+  left:0;
+  width:40px;
+  background:url('../img/logos/logTres.gif') 0 -46px;
+}
+
+#tw a:hover {
+  background:url('../img/logos/logTres.gif') 0 0;
+}
+
+#fb {
+  left:55px;
+  width:45px;
+  background:url('../img/logos/logTres.gif') -44px -46px;
+}
+
+#fb a:hover {
+  background:url('../img/logos/logTres.gif') -44px 0;
+}
+
+#go {
+  left:110px;
+  width:49px;
+  background:url('../img/logos/logTres.gif') -88px -46px;
+}
+
+#go a:hover {
+  background:url('../img/logos/logTres.gif') -88px 0;
+}
+
+#text01 {
+  left:-135px;
+  top:10px;
+  font-weight:bold;
+  color:#FFF;
+}
+
+#text03 {
+  left:-135px;
+  top:10px;
+  font-weight:bold;
+  color:#fff;
+}
+
+#text00 {
+  left:-135px;
+  top:-80px;
+  font-weight:bold;
+}
+
+#text {
+  left:-135px;
+  top:-150px;
+  font-weight:bold;
+}
+
+.at {
+  font-size:25px;
+  font-family:"Arial", Helvetica, sans-serif;
+}
+
+.ted {
+  font-size:18px;
+  font-weight:normal;
+  margin-left:5px;
+}

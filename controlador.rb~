@@ -22,7 +22,3 @@ end
 get '/book' do
 	erb :book
 end
-
-get '/contacto' do
-	erb :contacto
-end

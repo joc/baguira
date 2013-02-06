@@ -84,7 +84,7 @@ span {
 }
 
 #footer {
-  background-color:#1c051c;
+  background-color:black;
   color:white;
   text-align:center;
 }
