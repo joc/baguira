@@ -66,3 +66,8 @@
   z-index:0;
 }
 
+#fondo a:link, a:visited {
+  color:transparent;
+  background-color:transparent;
+}
+
