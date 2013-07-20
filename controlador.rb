@@ -26,3 +26,7 @@ end
 get '/contacto' do
 	erb :contacto
 end
+
+get '/media' do
+	erb :media
+end

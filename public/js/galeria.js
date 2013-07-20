@@ -4,6 +4,12 @@
 			$("#gal01").click(function() {
 				$.fancybox.open([
 					{
+						href : 'img/m1/pamFot_01.jpg',
+						title : 'fotografía'
+					},{
+						href : 'img/m1/pamFot_02.jpg',
+						title : 'fotografía'
+					},{
 						href : 'img/m1/Dra00.jpg',
 						title : 'fotografía'
 					},{
@@ -284,9 +290,6 @@
 			$("#mu").click(function() {
 				$.fancybox.open([
 					{
-						href : 'http://www.youtube.com/watch?v=mtoXPZeKwDM',
-						title : 'packaging'
-					},{
 						href : 'img/m6/pack01.jpg',
 						title : 'packaging'
 					},{
