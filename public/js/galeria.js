@@ -22,10 +22,10 @@
 						href : 'img/m1/Dra03.jpg',
 						title : 'fotografía'
 					},{
-						href : 'img/m1/En01.jpg',
+						href : 'img/m1/pamFot_03.jpg',
 						title : 'fotografía'
 					},{
-						href : 'img/m1/En02.jpg',
+						href : 'img/m1/pamFot_04.jpg',
 						title : 'fotografía'
 					}, {
 						href : 'img/m1/En03.jpg',
@@ -93,6 +93,15 @@
 			$("#gal02").click(function() {
 				$.fancybox.open([
 					{
+						href : 'img/m2/pamPub_01.jpg',
+						title : 'publicidad'
+					},{
+						href : 'img/m2/pamPub_02.jpg',
+						title : 'publicidad'
+					},{
+						href : 'img/m2/pamPub_03.jpg',
+						title : 'publicidad'
+					},{
 						href : 'img/m2/pub01.jpg',
 						title : 'publicidad'
 					},{
@@ -100,9 +109,6 @@
 						title : 'publicidad'
 					},{
 						href : 'img/m2/pub03.jpg',
-						title : 'publicidad'
-					},{
-						href : 'img/m2/pub04.jpg',
 						title : 'publicidad'
 					}], {
 					helpers : {
@@ -117,13 +123,22 @@
 			$("#gal03").click(function() {
 				$.fancybox.open([
 					{
+						href : 'img/m3/pamCar_03.jpg',
+						title : 'cartel'
+					},{
+						href : 'img/m3/car02.jpg',
+						title : 'cartel'
+					},{
+						href : 'img/m3/pamCar_01.jpg',
+						title : 'cartel'
+					},{
 						href : 'img/m3/car00.jpg',
 						title : 'cartel'
 					},{
 						href : 'img/m3/car01.jpg',
 						title : 'cartel'
 					},{
-						href : 'img/m3/car02.jpg',
+						href : 'img/m3/pamCar_02.jpg',
 						title : 'cartel'
 					}], {
 					helpers : {
@@ -138,6 +153,12 @@
 						$("#gal05").click(function() {
 				$.fancybox.open([
 					{
+						href : 'img/m5/pamDib_01.jpg',
+						title : 'ilustración'
+					},{
+						href : 'img/m5/pamDib_02.jpg',
+						title : 'ilustración'
+					},{
 						href : 'img/m5/ilus00.jpg',
 						title : 'ilustración'
 					},{
@@ -210,6 +231,24 @@
 					},{
 						href : 'img/m7/log03.png',
 						title : 'identidad gráfica'
+					},{
+						href : 'img/m7/log04.jpg',
+						title : 'tarjeta de presentaci&oacute;n'
+					},{
+						href : 'img/m7/pamLog_01.jpg',
+						title : 'identidad gráfica'
+					},{
+						href : 'img/m7/pamLog_02.jpg',
+						title : 'identidad gráfica'
+					},{
+						href : 'img/m7/pamLog_03.jpg',
+						title : 'identidad gráfica'
+					},{
+						href : 'img/m7/pamTar_01.jpg',
+						title : 'identidad gráfica'
+					},{
+						href : 'img/m7/pamTar_02.jpg',
+						title : 'identidad gráfica'
 					}], {
 					helpers : {
 						thumbs : {
@@ -223,7 +262,13 @@
 			$("#gal08").click(function() {
 				$.fancybox.open([
 					{
-						href : 'img/m8/edit17.jpg',
+						href : 'img/m8/pamEdi_01.jpg',
+						title : 'editorial'
+					},{
+						href : 'img/m8/pamEdi_02.jpg',
+						title : 'editorial'
+					},{
+						href : 'img/m8/pamEdi_03.jpg',
 						title : 'editorial'
 					},{
 						href : 'img/m8/edit00.jpg',
