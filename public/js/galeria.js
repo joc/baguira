@@ -15,10 +15,10 @@
 					},{
 						href : 'img/m1/Dra01.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Dra02.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Dra03.jpg',
 						title : 'fotografía'
 					},{
@@ -27,10 +27,10 @@
 					},{
 						href : 'img/m1/pamFot_04.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/En03.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Fre01.jpg',
 						title : 'fotografía'
 					},{
@@ -39,7 +39,7 @@
 					},{
 						href : 'img/m1/Fre04.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Fre05.jpg',
 						title : 'fotografía'
 					},{
@@ -48,22 +48,22 @@
 					},{
 						href : 'img/m1/Muc03.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Nat01.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Nat02.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Nat03.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Prod01.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/Prod02.jpg',
 						title : 'fotografía'
-					}, {
+					},{
 						href : 'img/m1/cam02.jpg',
 						title : 'fotografía'
 					},{
@@ -78,9 +78,7 @@
 					},{
 						href : 'img/m1/Usb02.jpg',
 						title : 'fotografía'
-					}
-					
-				], {
+					}], {
 					helpers : {
 						thumbs : {
 							width: 75,
@@ -182,8 +180,7 @@
 					},{
 						href : 'img/m5/ilus07.jpg',
 						title : 'ilustración'
-						}
-					], {
+						}], {
 					helpers : {
 						thumbs : {
 							width: 75,
@@ -233,7 +230,7 @@
 						title : 'identidad gráfica'
 					},{
 						href : 'img/m7/log04.jpg',
-						title : 'tarjeta de presentaci&oacute;n'
+						title : 'tarjeta de presentaciòn'
 					},{
 						href : 'img/m7/pamLog_01.jpg',
 						title : 'identidad gráfica'
@@ -294,7 +291,7 @@
 					},{
 						href : 'img/m8/edit07.jpg',
 						title : 'editorial'
-						},{
+					},{
 						href : 'img/m8/edit08.jpg',
 						title : 'editorial'
 					},{
@@ -318,31 +315,9 @@
 					},{
 						href : 'img/m8/edit15.jpg',
 						title : 'editorial'
-						},{
+					},{
 						href : 'img/m8/edit16.jpg',
 						title : 'editorial'
-					}
-					], {
-					helpers : {
-						thumbs : {
-							width: 75,
-							height: 50
-						}
-					}
-				});
-			});
-			
-			$("#mu").click(function() {
-				$.fancybox.open([
-					{
-						href : 'img/m6/pack01.jpg',
-						title : 'packaging'
-					},{
-						href : 'img/m6/pack02.jpg',
-						title : 'packaging'
-					},{
-						href : 'img/m6/pack03.jpg',
-						title : 'packaging'
 					}], {
 					helpers : {
 						thumbs : {
