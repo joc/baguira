@@ -130,9 +130,6 @@
 			$("#gal03").click(function() {
 				$.fancybox.open([
 					{
-						href : 'img/m3/pamCar_01.jpg',
-						title : 'cartel'
-					},{
 						href : 'img/m3/pamCar_03.jpg',
 						title : 'cartel'
 					},{
@@ -143,6 +140,9 @@
 						title : 'cartel'
 					},{
 						href : 'img/m3/car01.jpg',
+						title : 'cartel'
+					},{
+						href : 'img/m3/pamCar_02.jpg',
 						title : 'cartel'
 					}], {
 					helpers : {

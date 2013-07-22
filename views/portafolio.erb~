@@ -1,0 +1,28 @@
+<% content_for (:title) do %>
+Portafolio
+<% end %>
+
+<% content_for (:style) do %>
+<link rel="stylesheet" style="text/css" href="stylesheets/subMenu.css">
+<% end %>
+
+<% content_for (:script) do %>
+<script type="text/javascript" src="js/cambioImg.js"></script>
+<% end %>
+
+<% content_for (:script) do %>
+<script type="text/javascript" src="js/galeria.js"></script>
+<% end %>
+
+<div id="fondo">
+	<div id="foto"><a id="gal01" href="javascript:;"><img id="uno" src="img/menu/mFotoA.png" onmouseover="cambio_uno()" onmouseout="cambio_uno()"/></a></div>
+	<div id="pub"><a id="gal02" href="javascript:;"><img id="dos" src="img/menu/mPubA.png" onmouseover="cambio_dos()" onmouseout="cambio_dos()"/></a></div>
+	<div id="car"><a id="gal03" href="javascript:;"><img id="tres" src="img/menu/mCarA.png" onmouseover="cambio_tres()" onmouseout="cambio_tres()"/></a></div>
+	<div id="multi"><a href="#"><img id="cuatro" src="img/menu/mMultiA.png" title="en construcción"onmouseover="cambio_cuatro()" onmouseout="cambio_cuatro()"/></a></div>
+	<div id="ilus"><a id="gal05" href="javascript:;"><img id="m5" src="img/menu/mIlusA.png" onmouseover="cambio_m5()" onmouseout="cambio_m5()"/></a></div>
+	<div id="pack"><a id="gal06" href="javascript:;"><img id="m6" src="img/menu/mPackA.png" onmouseover="cambio_m6()" onmouseout="cambio_m6()"/></a></div>
+	<div id="iden"><a id="gal07" href="javascript:;"><img id="m7" src="img/menu/mIdenA.png" onmouseover="cambio_m7()" onmouseout="cambio_m7()"/></a></div>
+	<div id="edit"><a id="gal08" href="javascript:;"><img id="m8" src="img/menu/mEditA.png" onmouseover="cambio_m8()" onmouseout="cambio_m8()"/></a></div>
+	<div id="ap01"><img src="img/logo_sombra.png"/></div>
+</div>
+
