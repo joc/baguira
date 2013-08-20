@@ -39,5 +39,5 @@ get '/multimedia/animaciones' do
 end
 
 get '/multimedia/interactivos' do
-	erb :"multimedia/interactivos", :layout => :layout_B
+	erb :"multimedia/animaciones", :layout => :layout_B
 end

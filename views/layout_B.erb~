@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><% yield_content(:title) %></title>
+  <% yield_content(:style) %>
+</head>
+<body>
+	<h1><% yield_content(:title) %></h1>
+	<%=  yield %>
+</body>
+</html>
+
+

@@ -187,7 +187,7 @@
 		<!------------------------fancybox Ends-->
 		
 		<% yield_content(:style) %>
-		<link rel="stylesheet" type="text/css" href="stylesheets/prueba.css"/>
+		<link rel="stylesheet" style="text/css" href="stylesheets/prueba.css"/>
 <% yield_content(:script) %>
 	</head>
 	

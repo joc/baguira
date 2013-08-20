@@ -1,0 +1,62 @@
+
+<% content_for (:title) do %>
+Videos
+<% end %>
+
+<% content_for (:style) do %>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/media.css">
+<% end %>
+
+<div id="contentBox">
+  <h1>Videos</h1>
+  <div class="itemBox">
+    <iframe class="videoBox" src="//www.youtube.com/embed/TxnwmemvFU8" frameborder="0" allowfullscreen></iframe>
+    <div class="textItem">
+      <h2>El Nido</h2>
+      <h3>Dirección y Producción</h3>
+      <p>
+		Video Intitucional para el aviario <a target="_blank" href="http://www.visitaelnido.com/">El Nido</a> 
+	</p>
+    </div>
+  </div>
+  <div class="itemBox">
+    <iframe class="videoBox" src="//www.youtube.com/embed/q-o4Dg8MOH8" frameborder="0" allowfullscreen></iframe>
+    <div class="textItem">
+      <h2>Minutos de Conciencia</h2>
+      <h3>Stop Motion</h3>
+      <p>
+		Animacion en plastilina sobre el calentamiento global y el uso creativo de un zapato, trabajo de equipo realizado en la universidad.
+	</p>
+    </div>
+  </div>
+  <div class="itemBox">
+    <iframe class="videoBox" src="//www.youtube.com/embed/mtoXPZeKwDM" frameborder="0" allowfullscreen></iframe>
+    <div class="textItem">
+      <h2>Spot CityMarket</h2>
+      <h3>Preproducción, Producción y Postproducción</h3>
+      <p>
+		Spot publicitario para CityMarket
+	</p>
+    </div>
+  </div>
+  <div class="itemBox">
+    <iframe class="videoBox" src="//www.youtube.com/embed/by1-sew2h_A" frameborder="0" allowfullscreen></iframe>
+    <div class="textItem">
+      <h2>El Mundo del Reves</h2>
+      <h3>Animación de Introducción</h3>
+      <p>
+		Animación en flash para el intro del show de tv "El mundo del reves" de los alumnos de comunicaci&oacute;n de la Universidad.
+	</p>
+    </div>
+  </div>
+  <div class="itemBox">
+    <iframe class="videoBox" src="//www.youtube.com/embed/rDjH78JbcK0" frameborder="0" allowfullscreen></iframe>
+    <div class="textItem">
+      <h2>Peli de Plasti</h2>
+      <h3>Stop Motion</h3>
+      <p>
+		Mi primer película casera en Stop Motion  
+	</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+body {
+  background-color:yellow;
+}
+
+h1 {
+  text-align:center;
+}
+
+#contentBox {
+  width:960px;
+  height:auto;
+  border:0px solid red;
+  margin:auto auto;
+}
+
+.itemBox {
+  width:auto;
+  height:320px;
+  border:0px dotted green;
+  padding:8px;
+}
+
+.videoBox {
+  float:left;
+  width:420px;
+  height:315px;
+  padding-right:8px;
+}
+
+.zombiBox {
+  float:left;
+  width:520px;
+  height:415px;
+  padding-right:8px;
+}
+
+.textItem {
+  float:right;
+  width:480px;
+  height:315px;
+  padding:0 10px;
+  background-color:#FFFFFF;
+  margin-right:10px;
+}
+
+.textItemB {
+  float:right;
+  width:400px;
+  height:150px;
+  padding:0 10px;
+  background-color:#FFFFFF;
+  margin-right:10px;
+  line-height:19px;
+}
+
+.textItemZom {
+  float:right;
+  width:385px;
+  height:415px;
+  padding:0 10px;
+  background-color:#FFFFFF;
+  margin-right:10px;
+}
+
