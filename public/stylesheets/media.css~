@@ -1,6 +1,5 @@
 body {
-  background-color:;
-  background-image:url('//www.oficinasvirtualesmex.com/jcpvg/fondoWeb.png');
+  background-color:yellow;
 }
 
 h1 {

@@ -41,7 +41,3 @@ end
 get '/multimedia/interactivos' do
 	erb :"multimedia/interactivos", :layout => :layout_B
 end
-
-get '/multimedia/web' do
-	erb :"multimedia/web", :layout => :layout_B
-end

@@ -23,11 +23,5 @@ $(document).ready(function() {
 						padding : 8 //borderline size
 					});
 				});
-	$("#web").click(function() {
-					$.fancybox.open({
-						href : 'multimedia/web',
-						type : 'iframe',
-						padding : 8 //borderline size
-					});
-				});
+
 });
