@@ -14,16 +14,8 @@ get '/portafolio' do
 	erb :portafolio
 end
 
-get '/book' do
-	erb :book
-end
-
 get '/contacto' do
 	erb :contacto
-end
-
-get '/media' do
-	erb :media
 end
 
 get '/multimedia' do
